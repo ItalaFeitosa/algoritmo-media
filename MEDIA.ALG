@@ -17,4 +17,11 @@ med:=(n1+n2+n3+n4)/4
 
 ESCREVAL ("A media final do aluno e", med)
 
+se (med<6) entao
+  escreval ("Aluno reprovado") 
+fimse
+se (med>=6) entao
+  escreval ("Aluno aprovado")
+fimse
+
 Fimalgoritmo
